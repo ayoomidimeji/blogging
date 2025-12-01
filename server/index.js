@@ -9,7 +9,7 @@ const postRoutes = require('./routes/postRoutes')
 
 
 //connect to database
-mongoose.connect("mongodb+srv://demoUser:1234@learningmongo.ukgf4t4.mongodb.net/blogsdb?appName=learningMongo")
+mongoose.connect(mongouri)
     .then(() => {
         console.log("Connected to mongodb database")
 
